@@ -99,4 +99,7 @@ typedef NS_ENUM (NSUInteger, LFLiveVideoQuality){
 ///< 是否是横屏
 @property (nonatomic, assign, readonly) BOOL landscape;
 
+/* The refreshVideoSize is set the Video Refresh Size */
+@property (nonatomic, assign) BOOL refreshVideoSize;
+
 @end
